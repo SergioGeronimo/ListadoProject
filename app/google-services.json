@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "247463795149",
+    "firebase_url": "https://listado-dfeb4.firebaseio.com",
+    "project_id": "listado-dfeb4",
+    "storage_bucket": "listado-dfeb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247463795149:android:62dafdce78a1bdc5aa0c84",
+        "android_client_info": {
+          "package_name": "com.project.listado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247463795149-70cigq1002jsndaei5pd6u5mvp51gfcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKXTEFlS0AMEOr3NRhGUzg-4J-RtFyPDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247463795149-70cigq1002jsndaei5pd6u5mvp51gfcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
