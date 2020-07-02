@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LogInOptionFragment"
+    android:background="@drawable/pexels_photo_1181395"
+    android:backgroundTint="@color/primaryLightColor"
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    android:padding="48dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/primaryColor"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/to_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesi_n_con_contrase_a"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/round_style_white"
+        android:shadowColor="@color/secondaryTextColor"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/use_google_account"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@drawable/round_style_white"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAllCaps="true"
+            android:text="@string/iniciar_con_cuenta_google"
+            android:layout_weight="1"
+            android:textColor="@color/primaryColor"
+            android:textAlignment="textEnd"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/googleg_standard_color_18"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/to_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_cuenta"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_style_white"
+        android:textColor="@color/primaryColor"
+        />
+
+
+</LinearLayout>
