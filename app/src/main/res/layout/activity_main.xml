@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/log_in_fragment_container"
-    tools:context=".ui.LogInActivity">
+    android:id="@+id/fragment_container"
+    tools:context=".MainActivity">
+
+
 
     <fragment
         android:id="@+id/fragment"
@@ -14,5 +17,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/log_in_nav_graph" />
-</FrameLayout>
+        app:navGraph="@navigation/mobile_navigation"/>
+</LinearLayout>

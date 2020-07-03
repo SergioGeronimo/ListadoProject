@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/secondaryTextColor"
         android:inputType="textPassword"
         android:textColor="@color/secondaryTextColor"/>
@@ -67,7 +67,10 @@
         android:id="@+id/log_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_style_secondary"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="4dp"
+        android:background="@drawable/round_style_white"
         android:backgroundTint="@color/primaryColor"
         android:textColor="@color/primaryTextColor"
         android:text="@string/inicia_sesion"/>

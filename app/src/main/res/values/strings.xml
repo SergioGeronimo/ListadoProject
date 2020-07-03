@@ -19,4 +19,10 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="nombre">Nombre</string>
+    <string name="tus_listas_ahora">Tus listas ahora:</string>
+    <string name="sin_lista_est_s_libre">Sin lista, estás libre</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="inscribir_a_lista">Inscribir a lista</string>
+    <string name="mis_listas">Mis listas</string>
 </resources>

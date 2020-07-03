@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import android.util.Log;
@@ -52,6 +53,7 @@ public class LogInFragment extends Fragment {
         passwordText = view.findViewById(R.id.password);
         logInButton = view.findViewById(R.id.log_in);
         firebaseAuth = FirebaseAuth.getInstance();
+        final NavController navController = Navigation.findNavController(view);
 
 
         logInButton.setOnClickListener(new View.OnClickListener() {
@@ -71,6 +73,8 @@ public class LogInFragment extends Fragment {
                                                 "Sesion iniciada",
                                                 Toast.LENGTH_SHORT)
                                                 .show();
+                                        navController.navigate(R.id.action_logInFragment_to_homeFragment);
+
                                     }else {
                                         Toast.makeText(
                                                 getContext(),
@@ -80,6 +84,8 @@ public class LogInFragment extends Fragment {
                                     }
                                 }
                             });
+                }else {
+                    Toast.makeText(getContext(), "Llena tus datos", Toast.LENGTH_SHORT);
                 }
             }
         });

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.LogInOptionFragment"
-    android:background="@drawable/pexels_photo_1181395"
+    android:background="@drawable/log_in_medium_screen"
     android:backgroundTint="@color/primaryLightColor"
     android:gravity="bottom"
     android:layout_alignParentBottom="true"
@@ -30,12 +30,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/iniciar_sesi_n_con_contrase_a"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:textColor="@color/primaryColor"
         android:background="@drawable/round_style_white"
-        android:shadowColor="@color/secondaryTextColor"
+        android:elevation="4dp"
         />
 
-
+    <!--
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,15 +64,17 @@
             android:layout_weight="2"
             />
     </LinearLayout>
-
+    -->
     <Button
         android:id="@+id/to_create_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/crear_cuenta"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/round_style_white"
         android:textColor="@color/primaryColor"
+        android:elevation="4dp"
         />
 
 

@@ -33,12 +33,10 @@ public class LogInOptionFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         Button emailButton = view.findViewById(R.id.to_email_login);
-        LinearLayout googleAccountButton = view.findViewById(R.id.use_google_account);
+        // LinearLayout googleAccountButton = view.findViewById(R.id.use_google_account);
         Button registerButton = view.findViewById(R.id.to_create_account);
 
         final NavController navController = Navigation.findNavController(view);
-
-        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
 
         emailButton.setOnClickListener(new View.OnClickListener() {
