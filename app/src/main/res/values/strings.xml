@@ -25,4 +25,7 @@
     <string name="cerrar_sesion">Cerrar sesion</string>
     <string name="inscribir_a_lista">Inscribir a lista</string>
     <string name="mis_listas">Mis listas</string>
+    <string name="virtual">Virtual</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="todas_mis_listas">Todas mis listas</string>
 </resources>

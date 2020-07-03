@@ -100,8 +100,7 @@
         android:layout_marginBottom="8dp"
         android:elevation="4dp"
         android:background="@drawable/round_style_white"
-        android:backgroundTint="@color/primaryColor"
-        android:textColor="@color/primaryTextColor"
+        android:textColor="@color/primaryColor"
         android:text="@string/crear_cuenta"/>
 
 

@@ -48,5 +48,37 @@
         <action
             android:id="@+id/action_homeFragment_to_log_in_option"
             app:destination="@id/log_in_option" />
+        <action
+            android:id="@+id/action_homeFragment_to_listasFragment"
+            app:destination="@id/listasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sinfleListFragment"
+            app:destination="@id/sinfleListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_signInListFragment"
+            app:destination="@id/signInListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listasFragment"
+        android:name="com.project.listado.ListsFragment"
+        android:label="fragment_listas"
+        tools:layout="@layout/fragment_lists" >
+        <action
+            android:id="@+id/action_listasFragment_to_sinfleListFragment"
+            app:destination="@id/sinfleListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sinfleListFragment"
+        android:name="com.project.listado.SingleListFragment"
+        android:label="fragment_sinfle_list"
+        tools:layout="@layout/fragment_single_list" />
+    <fragment
+        android:id="@+id/signInListFragment"
+        android:name="com.project.listado.SignInListFragment"
+        android:label="fragment_sign_in_list"
+        tools:layout="@layout/fragment_sign_in_list" >
+        <action
+            android:id="@+id/action_signInListFragment_to_sinfleListFragment"
+            app:destination="@id/sinfleListFragment" />
     </fragment>
 </navigation>

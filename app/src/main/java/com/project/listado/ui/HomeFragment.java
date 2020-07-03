@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -68,5 +69,29 @@ public class HomeFragment extends Fragment {
             TextView id = view.findViewById(R.id.user_id);
             id.setText("ID: "  + currentUser.getUid());
         }
+
+        Button toLogList = view.findViewById(R.id.log_in_list);
+        toLogList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_homeFragment_to_signInListFragment);
+            }
+        });
+
+        Button allList = view.findViewById(R.id.all_list);
+        allList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_homeFragment_to_listasFragment);
+            }
+        });
+
+        LinearLayout singleList = view.findViewById(R.id.single_list);
+        singleList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_homeFragment_to_sinfleListFragment);
+            }
+        });
     }
 }
